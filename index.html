@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Younan Dashboard</title>
+	</head>
+	<body>
+		<div class="sidebar" id="sidebar">
+			<div class="logo_content">
+				<div class="logo">
+					<i class="bx bxs-coffee-bean"></i>
+					<div class="logo_name">Younan</div>
+				</div>
+				<i class="bx bx-menu" id="btn"></i>
+			</div>
+			<ul class="nav_list">
+				<li>
+					<i class="bx bx-search-alt"></i>
+					<input type="text" placeholder="Search ..." />
+					<span class="tooltip">Search</span>
+				</li>
+				<li>
+					<a href="#">
+						<i class="bx bxs-user"></i>
+						<span class="links_name">Users</span>
+					</a>
+					<span class="tooltip">Users</span>
+				</li>
+				<li>
+					<a href="#">
+						<i class="bx bxs-message"></i>
+						<span class="links_name">Messeges</span>
+					</a>
+					<span class="tooltip">Messeges</span>
+				</li>
+				<li>
+					<a href="#">
+						<i class="bx bx-pie-chart"></i>
+						<span class="links_name">Analytics</span>
+					</a>
+					<span class="tooltip">Analytics</span>
+				</li>
+				<li>
+					<a href="#">
+						<i class="bx bxs-folder-open"></i>
+						<span class="links_name">File Manager</span>
+					</a>
+					<span class="tooltip">File Manager</span>
+				</li>
+				<li>
+					<a href="#">
+						<i class="bx bxs-cart"></i>
+						<span class="links_name">Order</span>
+					</a>
+					<span class="tooltip">Order</span>
+				</li>
+				<li>
+					<a href="#">
+						<i class="bx bxs-bookmark-heart"></i>
+						<span class="links_name">Saved</span>
+					</a>
+					<span class="tooltip">Saved</span>
+				</li>
+				<li>
+					<a href="#">
+						<i class="bx bx-cog"></i>
+						<span class="links_name">Settings</span>
+					</a>
+					<span class="tooltip">Settings</span>
+				</li>
+			</ul>
+			<div class="profile_content">
+				<div class="profile">
+					<div class="profile_details">
+						<img src="assets/blue.jpg" alt="user-photo" />
+						<div class="name_job">
+							<div class="name">Ahmed Esmail</div>
+							<div class="job">Owner</div>
+						</div>
+					</div>
+					<i class="bx bx-log-out" id="log-out"></i>
+				</div>
+			</div>
+		</div>
+		<div class="gradient-bg home_content">
+			<svg xmlns="http://www.w3.org/2000/svg">
+				<defs>
+					<filter id="goo">
+						<feGaussianBlur
+							in="SourceGraphic"
+							stdDeviation="10"
+							result="blur"
+						/>
+						<feColorMatrix
+							in="blur"
+							mode="matrix"
+							values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+							result="goo"
+						/>
+						<feBlend in="SourceGraphic" in2="goo" />
+					</filter>
+				</defs>
+			</svg>
+			<div class="gradients-container">
+				<div class="g1"></div>
+				<div class="g2"></div>
+				<div class="g3"></div>
+				<div class="g4"></div>
+				<div class="g5"></div>
+				<div class="interactive"></div>
+			</div>
+		</div>
+		<div class="main_content">
+			<h2>Younan Dashboard</h2>
+			<section>
+				<div class="info">
+					<h1>Experience Control Like Never Before</h1>
+					<p>
+						Welcome to Younan Café's Owner Dashboard! Here, you're in control of
+						your café's success. From managing orders to tracking inventory, our
+						intuitive platform streamlines your operations, empowering you to
+						focus on what matters.
+					</p>
+				</div>
+
+				<div class="image">
+					<img src="https://i.ibb.co/vB5LTFG/Headphone.png" alt="hero img" />
+				</div>
+			</section>
+			<span
+				>Coded By:
+				<a
+					href="https://www.linkedin.com/in/ahmed-esmail-a28152239/"
+					target="_blank"
+					>Ahmed Esmail</a
+				></span
+			>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
